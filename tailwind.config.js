@@ -10,7 +10,8 @@ module.exports = {
         'xs' : '300px' 
       },
       colors:{
-        'blueBar' : '#2F80ED'
+        'blueBar' : '#2F80ED',
+        'letterGray' : '#828282'
       }
     },
   },

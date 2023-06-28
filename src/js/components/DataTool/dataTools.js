@@ -8,7 +8,7 @@ const dataTool = [
     porcentaje: '70%'
   },
   {
-    tool : 'Comand line',
+    tool : 'Cmd',
     porcentaje: '70%'
   },
   {
