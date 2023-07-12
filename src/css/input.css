@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-normal.woff2) format("woff2");
+    font-display: swap;
+  }
 
+  a { 
+    display: block;
+  }
+}
+
+/* Class utilities */
 .hiddenBlock{
-  display: none;
+  display: none ;
+}
+.activeBtn{
+  color: white;
+  border: 1px solid #2F80ED;
+  background-color: #2F80ED;
 }

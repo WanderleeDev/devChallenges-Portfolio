@@ -1,13 +1,14 @@
 import addBlock from "./src/js/utils/addBlock";
-import ContainerData from "./src/js/components/ContainerData/ContainerData";
-import HobbiesSection from "./src/js/components/HobbiesSection/HobbiesSection";
+import changeTable from "./src/js/utils/changeTable";
+import Main from "./src/js/Main";
 
-addBlock('#app',ContainerData, 'afterbegin');
-addBlock('#app',HobbiesSection, 'afterbegin');
+addBlock('#app', Main(), 'afterbegin');
 
-const btnChange = document.querySelector('#btnSkill');
+changeTable();
 
-btnChange.addEventListener( 'click',() => {
-  const tableSkill = document.querySelector('#skill');
-  tableSkill.classList.toggle('hiddenBlock');
-});
+export function* getId() {
+  // Tu código aquí 👈
+  do {
+    yield crypto.randomUUID().slice(0, 8);
+  } while (true)
+}

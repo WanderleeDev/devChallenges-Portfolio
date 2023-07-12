@@ -12,6 +12,12 @@ module.exports = {
       colors:{
         'blueBar' : '#2F80ED',
         'letterGray' : '#828282'
+      },
+      fontFamily:{
+        'Montserrat': ['Montserrat', 'ui-sans-serif', 'system-ui', 'sans-serif']
+      },
+      backgroundImage:{
+        'keyboard-arrow' : "url('/src/img/keyboard-right-arrow.svg')"
       }
     },
   },
