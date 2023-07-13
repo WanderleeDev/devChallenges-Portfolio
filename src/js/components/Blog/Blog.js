@@ -1,5 +1,5 @@
 const Blog = `
-<article class="bg-white rounded-xl max-w-sm p-4 grid gap-4 text-base">
+<article class="bg-white rounded-xl max-w-sm p-4 grid gap-4 text-base sm:row-start-2 sm:row-end-4">
   <div class="grid gap-6">
     <span class="font-medium text-[#E0E0E0]">Blog</span>
     <h2 class="text-2xl font-medium w-44">Top 5 programming languages</h2>

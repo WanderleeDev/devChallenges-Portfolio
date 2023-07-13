@@ -1,6 +1,6 @@
 const ProjectCard = (img, metaTag, title,description,demo,code) => {
   return(`
-  <article class="grid gap-4 w-80 max-w-full bg-white p-4 rounded-xl">
+  <article class="grid gap-4 w-80 max-w-full bg-white p-4 rounded-xl ">
     <div class="grid gap-6">
       <img class="h-52 rounded-xl" loading="lazy" src=${img} alt="project ${title}">
       <div class="text-base">
