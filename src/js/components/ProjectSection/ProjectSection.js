@@ -4,7 +4,7 @@ import TagBar from "../TagBar/TagBar";
 import IndexBar from "../IndexBar/IndexBar";
 
 const ProjectSection = `
-  <div class="grid gap-4 xs:justify-center sm:row-start-5 sm:col-start-1 sm:col-end-3 sm:justify-normal ">
+  <div class="grid gap-4 xs:justify-center sm:row-start-6 sm:col-start-1 sm:col-end-3 sm:justify-normal ">
     ${TagBar}
     <div id="containerCards" class="sm:flex sm:gap-1 overflow-hidden sm:justify-between">
     ${

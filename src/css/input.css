@@ -14,15 +14,26 @@
   }
 }
 
+
+@layer utilities{
+
+  .hiddenBlock{
+    display: none ;
+  }
+  .activeBtn{
+    color: white;
+    border: 1px solid #2F80ED;
+    background-color: #2F80ED;
+  }
+  .grid-responsive{
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  }
+  .scrollWidth{
+    scrollbar-width: 0;
+  }
+  .gridColResponsive{
+    grid-template-columns: auto 1fr;
+
+  }
+}
 /* Class utilities */
-.hiddenBlock{
-  display: none ;
-}
-.activeBtn{
-  color: white;
-  border: 1px solid #2F80ED;
-  background-color: #2F80ED;
-}
-.grid-responsive{
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-}
