@@ -20,8 +20,8 @@ const data = [
     porcentaje: '80%'
   },
   {
-    skill: 'Scss',
-    porcentaje: '70%'
+    skill: 'Angular',
+    porcentaje: '20%'
   },
 ];
 

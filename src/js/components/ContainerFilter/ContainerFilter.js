@@ -21,7 +21,7 @@ const ContainerFilter = (title) => {
     <button id="modalBtn" class="fixed top-6 right-6 bg-stone-100 w-8 h-8 text-lg rounded hover:bg-slate-950/40 duration-200 hover:text-slate-100">
       x
     </button>
-    <h2>
+    <h2 class="text-2xl font-bold text-slate-100">
       Projects developed in ${title}    
     </h2>
     <div class="w-10/12 bg-black/40 self-start grid grid-responsive gap-10 justify-items-center p-8 rounded">
