@@ -1,6 +1,6 @@
 const JobCard = (img, title, job, description) => {
   return(`
-  <div class="grid sm:gridColResponsive gap-4 min-h-[10rem]">
+  <div class="grid sm:gridColResponsive gap-8 min-h-[10rem] ">
     <img class="w-28 rounded-xl" src=${img} alt=${title}>
     <div class="grid gap-0">
       <span class="text-sm">${title}</span>
