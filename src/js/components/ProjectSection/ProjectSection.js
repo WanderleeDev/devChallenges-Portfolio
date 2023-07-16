@@ -6,7 +6,7 @@ import IndexBar from "../IndexBar/IndexBar";
 const ProjectSection = `
   <div id="sectionProjects" class="relative grid gap-4 overflow-hidden xs:justify-center sm:row-start-6 sm:col-start-1 sm:col-end-3 sm:justify-normal">
     ${TagBar}
-    <div id="containerCards" class="grid grid-cols-3 justify-items-center   gap-4 widthCarrusel duration-300 md+:flex md+:w-full md+:gap-1 md+:justify-between">
+    <div id="containerCards" class="grid grid-cols-3 justify-items-center   gap-4 widthCarrusel duration-300 md+:flex md+:w-full md+:gap-1 md+:justify-between md+:translateX-[initial]">
     ${
       projectData.slice(0,3).map(project=>{
         const {img, metaTag, title, description, demo, code} = project;
