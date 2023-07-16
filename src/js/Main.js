@@ -13,9 +13,9 @@ const Main = () => {
       ${Blog}
       ${JobSection}
       ${ProjectSection}`
-  
-  return tempContainer.trim();
-}
-
-export default Main;
-
+      
+      return tempContainer.trim();
+    }
+    
+    export default Main;
+    

@@ -33,7 +33,9 @@
   }
   .gridColResponsive{
     grid-template-columns: auto 1fr;
-
+  }
+  .widthCarrusel{
+    width: 305%;
   }
 }
 /* Class utilities */

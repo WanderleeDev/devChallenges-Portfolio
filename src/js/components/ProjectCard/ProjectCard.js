@@ -1,10 +1,10 @@
 const ProjectCard = (img, metaTag, title,description,demo,code) => {
   return(`
-  <article class="grid gap-4 w-80 max-w-full bg-white p-4 rounded-xl ">
+  <article class=" grid gap-4 w-80 max-w-full bg-white p-4 rounded-xl ">
     <div class="grid gap-6">
-      <img class="h-52 rounded-xl" loading="lazy" src=${img} alt="project ${title}">
-      <div class="text-base">
-        <span>#${metaTag}</span>
+      <img class="h-52 rounded-xl shadow-md" loading="lazy" src=${img} alt="project ${title}">
+      <div class="text-base flex gap-4 items-center flex-wrap text-letterGray my-4">
+        ${metaTag.map((m) => `<span title="" class="bg-blue-100 py-1 px-4 rounded-full">${m}</span>` ).join("")}
       </div>
     </div>
     <div class="grid gap-4">
