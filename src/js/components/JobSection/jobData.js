@@ -6,13 +6,13 @@ const jobData = [
     img: logo2,
     title: 'Tottus',
     job: 'Multifunctional',
-    description: 'Tottus is a global e-commerce company that specializes in selling digital products and services.'
+    description: 'In charge of the replenishment and inventory of products in warehouse as well as their rotation'
   },
   {
     img: logo1,
     title: 'Promart',
     job: 'Sales consult',
-    description: 'Promart is a global e-commerce company that specializes in selling digital products and services.'
+    description: 'Direct contact with the client, making suggestive sales and always seeking to offer a superior treatment by identifying the client\'s needs'
   }
 ];
 

@@ -3,7 +3,7 @@ import projectData from "../ProjectSection/projectData";
 
 const ContainerFilter = (title) => {
   return(`
-  <section class="bg-stone-950/40 backdrop-blur-md fixed inset-0 grid place-items-center z-20 overflow-y-auto">
+  <section class="bg-stone-950/40 backdrop-blur-md fixed inset-0 grid place-items-center z-30 overflow-y-auto">
     <button id="modalBtn" class="fixed top-6 right-6 bg-stone-100 w-8 h-8 text-lg rounded hover:bg-slate-950/40 duration-200 hover:text-slate-100">
       x
     </button>

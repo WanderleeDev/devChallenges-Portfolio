@@ -23,7 +23,7 @@ const CardProfile = `
         Self-motivated developer, who is willing to learn and create outstanding UI applications.
       </p>
       <p>
-      Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
+      Seeking to learn constantly and putting it to the test with small projects to reinforce what has been learned.
       </p>
     </div>
   </div>`;
