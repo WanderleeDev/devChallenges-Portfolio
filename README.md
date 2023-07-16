@@ -5,7 +5,7 @@
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
-
+ 
 <div align="center">
   <h3>
     <a href="https://64b357f82922996ccd067a0e--nimble-crumble-89a691.netlify.app/">
