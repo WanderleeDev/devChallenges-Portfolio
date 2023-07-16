@@ -60,7 +60,7 @@ const projectData = [
     metaTag: ['Html', 'TailwindCss', 'Js'],
     title: 'Porfolio DevChallenges',
     description: 'Project carried out following the directives and requirements of devChallenges and figma',
-    demo: 'https://edie-homepage-beta-two.vercel.app',
+    demo: 'https://64b357f82922996ccd067a0e--nimble-crumble-89a691.netlify.app/',
     code: 'https://github.com/WanderleeDev/devChallenges-Portfolio'
   }
 ]
